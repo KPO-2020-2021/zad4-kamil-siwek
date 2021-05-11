@@ -145,11 +145,12 @@ int main()
   double kat;
   char os;
   double wek[2];
-  std::cout << "o" << std::endl;
-  std::cout << "p" << std::endl;
-  std::cout << "w" << std::endl;
-  std::cout << "m" << std::endl;
-  std::cout << "k" << std::endl;
+  std::cout << "\n\n" << std::endl;
+  std::cout << "o - obrot bryly o zadana sekwencje katow" << std::endl;
+  std::cout << "p - przesuniecie prostokata o zadany wektor" << std::endl;
+  std::cout << "w - wyswietlenie wspolrzednych wierzcholkow" << std::endl;
+  std::cout << "m - wyswietl menu" << std::endl;
+  std::cout << "k - koniec dzialania programu\n" << std::endl;
 
   while (opcja != 'k')
   {
@@ -204,11 +205,12 @@ int main()
     break;
     case 'm':
     {
-      std::cout << "o" << std::endl;
-      std::cout << "p" << std::endl;
-      std::cout << "w" << std::endl;
-      std::cout << "m" << std::endl;
-      std::cout << "k" << std::endl;
+      std::cout << "\n\n" << std::endl;
+      std::cout << "o - obrot bryly o zadana sekwencje katow" << std::endl;
+      std::cout << "p - przesuniecie prostokata o zadany wektor" << std::endl;
+      std::cout << "w - wyswietlenie wspolrzednych wierzcholkow" << std::endl;
+      std::cout << "m - wyswietl menu" << std::endl;
+      std::cout << "k - koniec dzialania programu\n" << std::endl;
     }
     break;
     }
