@@ -208,7 +208,7 @@ Vector<SIZE> Vector<SIZE>::operator / (const double &tmp) {
  template <int SIZE>
 const double &Vector<SIZE>::operator [] (int index) const {
     if (index < 0 || index >= SIZE) {
-        std::cerr << "Error: Wektor jest poza zasiegiem!" << std::endl;
+        throw  "Error: Wektor jest poza zasiegiem!" ;
     }
     return size[index];
 }

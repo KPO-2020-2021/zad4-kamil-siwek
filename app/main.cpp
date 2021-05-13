@@ -11,7 +11,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <string>
-
+#include "Matrix4x4.hh"
 #include "exampleConfig.h"
 #include "example.h"
 #include "vector.hh"
@@ -139,6 +139,7 @@ int main()
 
   double wec3[] = {20, 20, 30};
   Vector<3> argumentsV(wec3);
+  funkcja(10,30,40,argumentsV);
   Prism rec(argumentsV, DL_KROTKI_BOK, DL_DLUGI_BOK, DL_SREDNI_BOK);
   char opcja;
   Matrix<3> mac_powtorzenia;
